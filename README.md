@@ -19,3 +19,18 @@ Install prettier extension for vscode
 File -> Preferences -> Settings -> Search format on save and *check*
                                 -> Search require config and *check*
 
+## ESLINT
+
+To install eslint for your projects run install script or
+```
+npm install -D eslint eslint-config-prettier
+```
+
+Copy config file from repository or create one from scratch
+
+Copy package.json file or add in your "scripts" :
+```
+"lint": "eslint \"src/**/*.{js,html}\" --quiet"
+```
+
+Install eslint extension for vscode
