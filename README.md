@@ -34,3 +34,15 @@ Copy package.json file or add in your "scripts" :
 ```
 
 Install eslint extension for vscode
+
+## PARCEL
+
+To install parcel for your project run install script or
+```
+npm i -D parcel-bundler
+```
+
+Copy package.json filr or add in your "scripts" : 
+```
+"dev": "parcel src/index.html"
+```
