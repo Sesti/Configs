@@ -1,0 +1,2 @@
+npm i -D prettier eslint eslint-config-prettier parcel-bundler babel-eslint eslint-plugin-import eslint-plugin-jsx-a11y eslint-plugin-react eslint-plugin-react-hooks 
+npm i react react-dom
